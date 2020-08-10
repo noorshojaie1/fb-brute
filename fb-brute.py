@@ -32,7 +32,7 @@ def main():
 	br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 	welcome()
 	search()
-	print("Password does not exist in the wordlist")
+	print("شبکه دانشوران")?
 
 	
 	
@@ -75,7 +75,7 @@ def welcome():
 """
 	total = open(passwordlist,"r")
 	total = total.readlines()
-	print wel 
+	print (wel)? 
 	print " [*] Account to crack : {}".format(email)
 	print " [*] Loaded :" , len(total), "passwords"
 	print " [*] Cracking, please wait ...\n\n"
